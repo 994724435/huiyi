@@ -109,7 +109,7 @@ li:after,
 .top_herder{ position:relative}
 .top_herder a{ display:block; height:100px; float:left;}
 .top_herder a img{ float:left; margin-right:20px;}
-.top_herder a .wenzi{ float:left;font-weight: 300; font-size:18px; margin-top:40px; display:block; border-left:1px solid #ddd; padding:0px 20px; color:#333333}
+.top_herder a .wenzi{ float:left;/*font-weight: 300;*/ font-size:18px; margin-top:40px; display:block; /*border-left:1px solid #ddd; padding:0px 20px;*/ color:#333333}
 .top_herder .text_Searching{ width:200px; border:1px solid #ddd; height:30px; left:30px; padding:0px 50px 0px 10px; float:right; margin-top:40px;}
 .top_herder .button_Search{ 
 	background:url(../images/Searching_09.png) no-repeat; 
@@ -331,7 +331,7 @@ li:after,
 .QQ_bottom{ background:url(../images/QQ_img_08.png) no-repeat; height:30px;}
 /* 在线客服 */
 #online_qq_layer { position:fixed; right:0px; top:150px; overflow:hidden; _position:absolute; z-index:110; }
-#online_qq_tab { float:left; margin-top: 50px; }
+#online_qq_tab { float:left;/* margin-top: 50px;*/ }
 .online_icon { width:30px; height:185px; overflow:hidden;}
 .online_icon a { display:block; width:30px; height:185px; background: url(../images/zixun_img.png) no-repeat left top; }
 #onlineService { float:left; display:none; }
